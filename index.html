@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folder Link</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .list {
+            display: flex;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 50px;
+            color: white;
+            box-shadow: 2px 2px 3px darkgray;
+            cursor: pointer;
+            transition: all 0.5s;
+            margin: 5px 15px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            opacity: 0.7;
+        }
+        .btn-01 {
+            background-color: seagreen;
+        }
+        .btn-02 {
+            background-color: orangered;
+        }
+        .btn-03 {
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="list">
+            <a class="btn btn-01" href="./Thực hành 1/index.html">Thực hành 1</a>
+            <a class="btn btn-02" href="./Thực hành 2/index.html">Thực hành 2</a>
+            <a class="btn btn-03" href="./Thực hành 3/index.html">Thực hành 3</a>
+        </div>
+    </div>
+</body>
+</html>
